@@ -1,0 +1,179 @@
+/* ===== Global ===== */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #1e3c72, #2a5298);
+    min-height: 100vh;
+}
+
+/* ===== Container spacing ===== */
+.container {
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+/* ===== Card ===== */
+.card {
+    border: none;
+    border-radius: 16px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* ===== Shadow ===== */
+.shadow {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15) !important;
+}
+
+/* ===== Titles ===== */
+h2, h3 {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* ===== Forms ===== */
+.form-control {
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.form-control:focus {
+    border-color: #4e73df;
+    box-shadow: 0 0 0 0.2rem rgba(78, 115, 223, 0.25);
+}
+
+/* ===== Buttons ===== */
+.btn {
+    border-radius: 10px;
+    padding: 8px 15px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.03);
+}
+
+/* ===== Table ===== */
+.table {
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+.table thead {
+    background: #343a40;
+    color: #fff;
+}
+
+.table tbody tr:hover {
+    background-color: #f1f5ff;
+}
+
+/* ===== Alerts ===== */
+.alert {
+    border-radius: 10px;
+}
+
+/* ===== Top bar buttons ===== */
+.btn-sm {
+    margin-left: 5px;
+}
+
+/* ===== Auth Pages ===== */
+.auth-card {
+    border-radius: 20px;
+    padding: 30px;
+    background: #fff;
+}
+
+/* ===== Gradient button styles ===== */
+.btn-primary {
+    background: linear-gradient(45deg, #4e73df, #224abe);
+    border: none;
+}
+
+.btn-success {
+    background: linear-gradient(45deg, #1cc88a, #17a673);
+    border: none;
+}
+
+.btn-danger {
+    background: linear-gradient(45deg, #e74a3b, #be2617);
+    border: none;
+}
+
+.btn-warning {
+    background: linear-gradient(45deg, #f6c23e, #dda20a);
+    border: none;
+}
+
+/* ===== Animations ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.card h2 {
+    font-weight: bold;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.card {
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.navbar {
+    box-shadow: 0 2px 10px rgba(0,0,0,0.2);
+}
+.post-title {
+    color: #222;
+    font-weight: bold;
+    font-size: 28px;
+}
+
+/* ===== Post Cards ===== */
+.post-card {
+    border-radius: 20px;
+    padding: 10px;
+    transition: 0.3s;
+    background: #fff;
+}
+
+.post-card:hover {
+    transform: translateY(-8px) scale(1.01);
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+}
+
+/* Title */
+.card-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: #222;
+}
+
+/* Content */
+.card-text {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.6;
+}
+
+/* Button */
+.card .btn {
+    border-radius: 8px;
+    padding: 6px 12px;
+}
